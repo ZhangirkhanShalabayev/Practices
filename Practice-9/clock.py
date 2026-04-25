@@ -7,7 +7,6 @@ screen = pygame.display.set_mode((600, 600))
 clock = pygame.time.Clock()
 
 import os
-import pygame
 
 base_path = os.path.dirname(__file__)
 
