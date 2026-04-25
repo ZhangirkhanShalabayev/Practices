@@ -36,8 +36,14 @@ while True:
             elif event.key == pygame.K_RIGHT:
                 if ball_x + step <= WIDTH - ball_radius:
                     ball_x += step
+            elif event.key == pygame.K_ESCAPE:
+                if ball_x - step >= ball_radius:
+                    ball_x -= step
+                if ball_y + step <= HEIGHT - ball_radius:
+                    ball_y += step
+                
 
-    screen.fill(WHITE)
+
     pygame.draw.circle(screen, RED, (ball_x, ball_y), ball_radius)
     
     pygame.display.flip()
