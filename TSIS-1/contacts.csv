@@ -1,0 +1,5 @@
+name,email,birthday,group,phone1,phone1_type,phone2,phone2_type
+John Doe,john@example.com,5/15/1990,Work,1234567890,mobile,987654321,home
+Jane Smith,jane.smith@gmail.com,8/22/1988,Family,1111111111,mobile,2222222222,work
+Bob Johnson,bob@company.com,12/3/1992,Work,3333333333,mobile,,
+Alice Williams,alice@example.com,3/18/1995,Friend,4444444444,home,5555555555,mobile
